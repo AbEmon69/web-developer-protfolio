@@ -22,13 +22,27 @@ body {
     text-align: center;
 }
 
+.section-title {
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.section-description {
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
 /* nav styles */
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 30px 30px 30px 150px;
-    
+
 }
 
 .nav-title {
@@ -46,21 +60,61 @@ nav li {
     margin-right: 50px;
 }
 
-li a {
+nav a {
     text-decoration: none;
+    color: #474747;
 }
 
 /* header related styles */
 
 .header {
     background: rgb(255, 248, 243);
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
+
 .banner {
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.banner-contact {
+    max-width: 500px;
 }
 
 .banner .profile-pic {
     width: 500px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    color: rgb(117, 117, 117);
+    margin-bottom: 15px;
+}
+
+/* main section styles */
+
+/* about related styles */
+
+.about {
+    padding: 130px;
+    border-radius: 10px;
+
+    background: rgb(255, 248, 243);
+    margin: 130px 0px;
 }
